@@ -1,0 +1,157 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.container{
+    width: 80%;
+}
+
+header img{
+        height:100px;
+        width: 150px;;
+        display: block;
+}
+
+nav{
+    background-color:#9a8252;
+    padding: 10px;
+}
+
+.menu{
+    float: left;
+}
+
+.menu a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: whitesmoke;
+}
+.menu a:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: #9a8252;
+}
+
+.search-container {
+    position: relative;
+    top: 3px;
+    padding: 6px 5px;
+    float: right;
+    border-radius: 20px;
+    width: 250px; /* Adjust width as needed */
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+  }
+
+  form {
+    display: flex;
+  }
+
+  input {
+    border: none;
+    padding:  5px 8px;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+  }
+
+  #search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #777;
+  }
+  
+ .clear{
+    clear:both;
+}
+#banner{
+  position: relative;
+}
+#banner img{
+  width: 100%;
+  height:500px;
+  display: block;
+}
+.info{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color:teal;
+  padding: 30px;
+}
+.info h2{
+  color: #ddd;
+  font-size: 30px;
+  font-family: cursive;
+}
+.info span{
+  font-style: italic;
+  color: #f1f1f1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+}
+.info a{
+  margin: 10px 0;
+  background-color: navajowhite;
+  color: black;
+  padding: 15px 20px;
+  display: inline-block;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+.boxes{
+  display: flex;
+}
+.box{
+  background-color:brown;
+  height: 300px;
+  width:33%;
+}
+.box img{
+  width: 100%;
+  height: 350px;
+  display:block;
+}
+.box h3{
+  color: black;
+  font-size: 30px;
+  font-family: cursive;
+}
+.hot,.stock,.discount{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: cursive;
+}
+.hot{
+  background-color: red;
+  color: #ddd;
+}
+.stock{
+  background-color: aqua;
+  color: #ddd;
+}
+.discount{
+  background-color: #9a8252;
+  color: #ddd;
+}
